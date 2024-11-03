@@ -1,6 +1,6 @@
 # Car Rental Reservation System
 
-A Java-based **University-level Project** developed for the **Data Structures and Algorithms (DSA)** and **Database Management** courses. This **Car Rental Reservation System** incorporates essential DSA concepts like linked lists, filters, queues, and stacks, alongside MySQL for database management. The project includes an **Admin Panel** for managing vehicles, customers, and rentals, as well as a **Customer Portal** for logging in and renting cars.
+A Java-based **University-level project** developed for the **Data Structures and Algorithms (DSA)** and **Database Management** courses. This **Car Rental Reservation System** incorporates essential DSA concepts like linked lists, filters, queues, and stacks, alongside MySQL for database management. The project includes an **Admin Panel** for managing vehicles, customers, and rentals, as well as a **Customer Portal** for logging in and renting cars.
 
 ## Features
 
@@ -25,13 +25,27 @@ This project uses several core data structures to manage system functionality:
 - **Database**: MySQL (using MySQL Workbench for database management)
 - **Database Connection**: JDBC
 
+## Database Structure
+
+The MySQL database, named `vehicles`, contains the following tables:
+
+1. **Table: vehicle**
+   - `id` (INT, Primary Key): Unique identifier for each vehicle.
+   - `category` (VARCHAR): Category/type of vehicle (e.g., sedan, SUV).
+   - `model` (VARCHAR): Model year of the vehicle.
+   - `vehicleName` (VARCHAR): Name or make of the vehicle.
+   - `seatingCapacity` (INT): Number of seats available in the vehicle.
+   - `rentPerHour` (DECIMAL): Rental price per hour.
+   - `isAvailable` (BOOLEAN): Availability status of the vehicle.
+
+2. **Table: customer**
+   - `id` (INT, Primary Key): Unique identifier for each customer.
+   - `name` (VARCHAR): Customer's full name.
+   - `email` (VARCHAR): Customer's email address.
+
 ## Database Setup
 1. Ensure MySQL is installed and running.
-2. Use MySQL Workbench to set up a database with the required tables:
-   - `vehicles`: Stores vehicle details (e.g., make, model, rental status).
-   - `customers`: Stores customer details (e.g., name, contact info).
-   - `rentals`: Tracks rental records for customers and vehicles.
-
+2. Use MySQL Workbench or a similar tool to create the database and tables as shown in the **Database Structure** section.
 3. Update the JDBC connection details in the code with your MySQL username, password, and database name.
 
 ## Installation
