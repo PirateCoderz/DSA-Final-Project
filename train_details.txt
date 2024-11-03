@@ -1,0 +1,20 @@
+Train Number: 3030
+Train Name: Pak Railways
+Destination: Chiniot
+Travel Time: 100000 hours
+Available Seats: 50
+Fare First AC: 5000.0
+Fare Second AC: 3000.0
+Fare Third AC: 2000.0
+Fare Sleeper: 1500.0
+Routes and Rides: Bhawana to Chiniot
+Train Number: 1010
+Train Name: Pak Railways
+Destination: Bhawana
+Travel Time: 1100000 hours
+Available Seats: 50
+Fare First AC: 5000.0
+Fare Second AC: 3000.0
+Fare Third AC: 1000.0
+Fare Sleeper: 1000.0
+Routes and Rides: Chiniot to Bhawana
