@@ -52,7 +52,7 @@ The MySQL database, named `vehicles`, contains the following tables:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/Car-Rental-Reservation-System.git
+   git clone https://github.com/PirateCoderz/DSA-Final-Project.git
    ```
 2. **Open in Your IDE** (e.g., Eclipse or IntelliJ).
 3. **Configure Database Connection**:
